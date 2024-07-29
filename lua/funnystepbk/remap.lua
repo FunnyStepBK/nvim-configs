@@ -68,7 +68,7 @@ end
 -- Keymap for clearing search highlight
 vim.api.nvim_set_keymap('n', '<leader>c', ':nohlsearch<CR>', { noremap = true, silent = true })
 
--- Keymap for instantly swapping between tow files
+-- Keymap for instantly swapping between two files
 vim.api.nvim_set_keymap('n', 'F', '<C-^>', { noremap = true, silent = true })
 
 -- Keymap for vim-move
