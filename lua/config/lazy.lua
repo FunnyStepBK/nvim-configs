@@ -26,6 +26,7 @@ require("lazy").setup({
     { import = "plugins.lsp" },
     { import = "plugins.git" },
     { import = "plugins.markdown" },
+    { import = "plugins.tressiter" },
   },
   install = { colorscheme = { "ribru17/bamboo.nvim" } },
   checker = { enabled = true },
