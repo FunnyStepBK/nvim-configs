@@ -1,0 +1,7 @@
+require('funnystepbk.remap')
+require('funnystepbk.basicConfigs')
+require('funnystepbk.settings')
+require('funnystepbk.airline')
+require('funnystepbk.cmp')
+require('funnystepbk.plugins')
+require('funnystepbk.markdown')

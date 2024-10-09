@@ -1,0 +1,36 @@
+-- -- Lazy.nvim plugin setup
+-- require('lazy').setup({
+--   -- Vim Markdown: Markdown syntax highlighting, folding, and more
+--   {
+--     "preservim/vim-markdown",
+--     config = function()
+--       vim.g.vim_markdown_folding_disabled = 0      -- Enable folding
+--       vim.g.vim_markdown_toc_autofit = 1           -- Disable TOC auto generation
+--       vim.g.vim_markdown_frontmatter = 1           -- Enable frontmatter support
+--     end,
+--   },
+--
+--   -- Vim Pandoc: Enhances Pandoc support in Vim/Neovim
+--   {
+--     "vim-pandoc/vim-pandoc",
+--     config = function()
+--       vim.g.pandoc_command_autoexec = 0            -- Disable automatic Pandoc execution
+--     end,
+--   },
+--
+--   -- Markdown Preview: Live markdown preview in a browser
+--   {
+--     "iamcco/markdown-preview.nvim",
+--     build = function() vim.fn["mkdp#util#install"]() end,
+--     config = function()
+--       vim.g.mkdp_auto_start = 1                    -- Auto-start the preview
+--       vim.g.mkdp_auto_close = 1                    -- Automatically close the preview when quitting Neovim
+--       vim.g.mkdp_refresh_slow = 0                  -- Enable fast refresh
+--       vim.g.mkdp_browser = 'chrome'                -- Specify Chrome as your browser for preview
+--     end,
+--   },
+-- })
+--
+-- -- Optional: Keybindings for Markdown preview
+-- vim.api.nvim_set_keymap('n', '<leader>mp', ':MarkdownPreview<CR>', { noremap = true, silent = true })
+-- vim.api.nvim_set_keymap('n', '<leader>mt', ':MarkdownPreviewToggle<CR>', { noremap = true, silent = true })
